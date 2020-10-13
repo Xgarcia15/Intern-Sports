@@ -1,0 +1,35 @@
+
+/*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #181E26;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#21BFA2;
+}
+
+
+/*HEADER*/
+h1 {
+font-family: bio Sans;
+  color:#21BFA2;
+  left: 103px;
+  width: 320px;
+  padding-left: 50px; 
+  padding-top: 50px;
