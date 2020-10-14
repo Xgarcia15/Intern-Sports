@@ -1,0 +1,76 @@
+/*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #181E26;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#21BFA2;
+}
+
+/*HEADER*/
+h1 {
+  font-family: bio Sans;
+  color:#21BFA2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h3{
+  font-family: bio Sans;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ul.li {
+
+
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #181E26F2;
+  margin-top: 30px;
+}

@@ -25,6 +25,15 @@ li a:hover {
   background-color:#21BFA2;
 }
 
+aside {
+  width: 50%;
+  height: 20%;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: none;
+
+}
 
 /*HEADER*/
 h1 {
@@ -36,18 +45,7 @@ font-family: bio Sans;
   padding-top: 50px;
 }
 
-.column{
-	float:left;
-	width: 50%;
 
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-
-}
 /*H2 to left column - SPORTS ARE BACK!*/
 h3 {
  
@@ -80,7 +78,8 @@ p {
 /*CENTER banner of professional athletes*/
 
 img{
-  
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
