@@ -24,43 +24,33 @@ li a:hover {
   background-color:#21BFA2;
 }
 
-
 /*HEADER*/
-h1 {
-font-family: bio Sans;
+h2 {
+  font-family: bio Sans;
   color:#21BFA2;
-  left: 103px;
-  width: 320px;
-  padding-left: 50px; 
-  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ul.li {
+
+
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*FOOTER*/
-footer{
+footer {
   padding: 20px;
   text-align: center;
   background: #181E26F2;
-  margin-top: 20px;
+  margin-top: 30px;
 }
