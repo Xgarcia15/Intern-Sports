@@ -28,40 +28,45 @@ li a:hover {
 h1 {
 font-family: bio Sans;
   color:#21BFA2;
-  left: 103px;
-  width: 320px;
-  padding-left: 50px; 
-  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.column{
+  float:left;
+  width: 50%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding:60px;
+}
+
+img {
+  padding-left: 20px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: left;
+  font: normal normal normal 18px/24px Arial;
+  letter-spacing: 1.2px;
+  color: #000000;
+  opacity: 1;
+  padding-right: 130px;
+  padding-left: 20px;
 }
 
 
 /*FOOTER*/
-footer{
-  padding: 20px;
-  text-align: center;
-  background: #181E26F2;
-  margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*FOOTER*/
 footer{
   padding: 20px;
   text-align: center;
