@@ -1,76 +1,106 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Head of website project BEGINS -->
 <head>
-	<title>Sports</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
 
-	
-	<link rel="stylesheet" type="text/css" href="css/sports.css">
+     <title>Intern Sports</title>
+
+
+ <link rel="stylesheet" href="css/sports.css">
+
 </head>
+<!-- Head of website project ENDS -->
+
 
 <body>
-	
 
-	<!-- NAVIGATION -List within nav with each item being a link to HOME,SPORTS,CONTACT,ABOUT -->
+  <!-- NAVIGATION -List within nav with each item being a link to HOME,SPORTS,CONTACT,ABOUT -->
  <nav>
-    <ul>
-    
-     <li><a class="action_page" href="nfl.html">NFL</a></li>
-     <li><a class="action_page" href="nba.html">NBA</a></li>
-     <li><a class="action_page" href="mlb.html">MLB</a></li>
-     <li><a class="action_page" href="ncaa.html">NCAAF</a></li>
-     <li><a class="action_page" href="sports.html">SPORTS</a></li>
-     <li><a class="action_page" href="index.html">HOME</a></li>
-    
-    </ul>
+   <ul>
+    <li><a class="action_page" href="ncaa.html">NCAAF</a></li>
+    <li><a class="action_page" href="mlb.html">MLB</a></li>
+    <li><a class="action_page" href="nfl.html">NFL</a></li>
+    <li><a class="action_page" href="nba.html">NBA</a></li>
+    <li><a class="action_page" href="sports.html">Sports</a></li>
+    <li><a class="action_page" href="index.html">Home</a></li>
+   </ul>
+
  </nav>
 
 
 	<!-- HEADER - Paragraph intro that goes over the return of sports due to COVID-19 pandemic -->
  <header>
   
-      <h2>SPORTS</h2>
+      <h1>SPORTS</h1>
  </header>
  
 
-  <p><img src="images/sports-banner.gif" width="600" height=""></p>
+  <img src="images/sports-banner.gif" width="600" height="">
+
 <section>
-  <div class="row">
-    <div class="column">
-      <ul>
-      
-      <p><li><img src="images/NCAA-logo.png" alt="ncaalogo" width="200" height="100"></li></p>
-      <p><li><img src="images/NHL-logo.png" alt="nhl_logo" width="170" height="150"></li></p>
-      <p><li><img src="images/MLB-logo.png" alt="mlblogo" width="190" height="90"></li></p>
-      <p><li><img src="images/NBA-logo.png" alt="nbalogo" width="200" height="100"></li></p>
-      <p><li><img src="images/NFL-logo.png" alt="-logo" width="120" height="160"></li></p>
-    </ul>
+  <!--First table in Sports page - Videos-->
+    <table>
+      <th><h4>Dodgers break postseason record with 11-run 1st</h4></th>
+      <th><h4>Are the Packers the best team in the NFL?</h4></th>
+      <th><h4>Lakers Claim Banner 17</h4></th>
+
+
+      <tr>
+        <td><iframe src="https://streamable.com/m/dodgers-historic-11-run-inning" width="400" height="225"></iframe></td>
+        
+        <td><iframe width="400" height="225" src="http://www.espn.com/core/video/iframe?id=30105957&endcard=false" allowfullscreen frameborder="0"></iframe></td>
+
+        <td><iframe width="400" height="225" src="http://www.espn.com/core/video/iframe?id=30097045&endcard=false" allowfullscreen frameborder="0"></iframe></td>
+      </tr>
+
+    </table>
+
+
+
+<!--Second table (news)-->
+     <table>
+      <tr>
+        <title>News</title>
+        <th><h4>MLB Postseason Bracket</h4></th>
+        <th><h4>The Los Angeles Lakers Winning the 2019-20 NBA Championship</h4></th>
+        <th><h4>College football:Top 25 for Week 7</h4></th>
+      </tr>
+      <tr>
+        <td><img src="images/MLB-LCS bracket.jpg" width="400" height="225"></td>
+        <td><p>The 17th NBA title in Lakers franchise history is still fresh in the minds of the fans, but any public celebration of the championship will have to wait.</p></td>
+        <td><img src="images/Week_7-NCAA.jpg" width="400" height="225"></td>
+      </tr>
+    </table>
 
 </section>
 
-<table>
-  <tr>
-  <th><h4>The Los Angeles Lakers Winning the 2019-20 NBA Championship</h4></th>
-  <th><h4>College football scores: Top 25 rankings, results for Week 7</h4></th>
-  <th><h4>Bravers survice Dodgers last push</h4></th>
-</tr>
 
-<tr>
-  <td>The 17th NBA title in Lakers franchise history is still fresh in the minds of the fans, but any public celebration of the championship will have to wait.</td>
-  <td>The 2020 college football season is into Week 7. No. 3 Georgia at No. 2 Alabama highlights the 16 ranked teams in action this week. Visit <a href="https://www.ncaa.com/news/football/article/2020-10-12/college-football-scores-top-25-rankings-results-week-7">NCAA.com</a>to find scores, schedule and Top 25 rankings for Week 7.</td>
-  <td><iframe src="https://streamable.com/m/braves-survive-dodgers-late-push" width="540" height="303.75"></iframe><p>More on <a href="mlb.com">MLB.com</a></p></td>
-
-
-</tr>
-
-
-</table>
-
+<!-- FOOTER section starts -->
 <footer>
-  <p>
-  <a href="hulu.com">Hulu.com</a>
-  <a class="action_page" href="about.html">About</a></li>
-  <a class="action_page" href="contact.html">Contact</a></li>
+
+  <a class="action_page" href="about.html">About</a>
+  <a class="action_page" href="contact.html">Contact</a>
+  
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"><p>How your was your experience today? Your feedback is greatly appreciated.</p></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    
+    <select id="choice" name="choice">
+      <option value="null">-Select-</option>
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="okay">Okay</option>
+      <option value="bad">Bad</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </footer>
 
 </body>

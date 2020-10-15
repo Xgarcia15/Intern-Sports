@@ -145,13 +145,50 @@ iframe{
 }
 
 
-
 /*FOOTER*/
 footer{
   padding: 20px;
-  text-align: center;
+  text-align: left;
   background: #181E26F2;
   margin-top: 20px;
 }
 
+label,p{
+  text-decoration-color: #7F7F7F;
+  text-align: left;
+  float:left;
+}
 
+input[type=text], select {
+  width: 20%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius:0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #21BFA2;
+  color: white;
+  padding: 5px 8px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #21BFA2;
+}
+
+div.container {
+  border-radius: 1px;
+  background-color: transparent;
+  padding: 5px;
+}
+form{
+  position: stack;
+}

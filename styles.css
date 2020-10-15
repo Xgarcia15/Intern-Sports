@@ -81,6 +81,7 @@ p {
 img{
   padding-top: 30px;
   padding-bottom: 30px;
+  float: left;
   display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -106,6 +107,7 @@ h4{
 
 table{
 	padding-left:50px;
+  margin-left: 20px;
 }
 
 th, td{
@@ -123,12 +125,37 @@ iframe{
 	padding-top: 48px;
 }
 
-/*FOOTER*/
-footer{
-  padding: 20px;
-  text-align: center;
-  background: #181E26F2;
-  margin-top: 20px;
+
+
+input[type=text], select {
+  width: 30%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  display: block;
+  border: 1px solid #21BFA2;
+  border-radius:0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #21BFA2;
+  color: white;
+  padding: 5px 8px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 5px;
 }
 
 

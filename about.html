@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Head of website project BEGINS -->
 <head>
-	<title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
 
-	
-	<link rel="stylesheet" type="text/css" href="css/about.css">
+     <title>Intern Sports</title>
+
+
+ <link rel="stylesheet" href="css/about.css">
+
 </head>
+<!-- Head of website project ENDS -->
+
 
 <body>
-	
-	<!-- NAVIGATION -List within nav with each item being a link to HOME,SPORTS,CONTACT,ABOUT -->
+
+  <!-- NAVIGATION -List within nav with each item being a link to HOME,SPORTS,CONTACT,ABOUT -->
  <nav>
    <ul>
-     <li><a class="action_page" href="nfl.html">NFL</a></li>
-     <li><a class="action_page" href="nba.html">NBA</a></li>
-     <li><a class="action_page" href="mlb.html">MLB</a></li>
-     <li><a class="action_page" href="ncaa.html">NCAAF</a></li>
-     <li><a class="action_page" href="sports.html">SPORTS</a></li>
-     <li><a class="action_page" href="index.html">HOME</a></li>
-  
+    <li><a class="action_page" href="ncaa.html">NCAAF</a></li>
+    <li><a class="action_page" href="mlb.html">MLB</a></li>
+    <li><a class="action_page" href="nfl.html">NFL</a></li>
+    <li><a class="action_page" href="nba.html">NBA</a></li>
+    <li><a class="action_page" href="sports.html">Sports</a></li>
+    <li><a class="action_page" href="index.html">Home</a></li>
    </ul>
+
  </nav>
 
 	<!-- HEADER - Paragraph intro that goes over the return of sports due to COVID-19 pandemic -->
@@ -44,11 +51,27 @@
 
 <!-- FOOTER section starts -->
 <footer>
-  <p>
-<a href="hulu.com">Hulu.com</a>
-  <a class="action_page" href="about.html">About</a></li>
-  <a class="action_page" href="contact.html">Contact</a></li>
-  </p>
+
+  <a class="action_page" href="about.html">About</a>
+  <a class="action_page" href="contact.html">Contact</a>
+  
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"><p>How your was your experience today? Your feedback is greatly appreciated.</p></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    
+    <select id="choice" name="choice">
+      <option value="null">-Select-</option>
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="okay">Okay</option>
+      <option value="bad">Bad</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </footer>
 
 
