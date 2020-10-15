@@ -1,8 +1,22 @@
+/*Media Query for max width of 480px devices*/
+@media screen and (max-width:480px) {
+ nav {
+  list-style-position: stack;
+ }
+}
+
 /*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
+  align-self: center;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   overflow: hidden;
   background-color: #181E26;
 }
@@ -21,6 +35,11 @@ li a {
 
 li a:hover {
   background-color:#21BFA2;
+}
+
+li img {
+  display: block;
+  list-style-image: url();
 }
 
 /*HEADER*/

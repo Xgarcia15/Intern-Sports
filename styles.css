@@ -1,5 +1,9 @@
-
-
+@media screen and (max-width:480px) {
+ nav {
+  
+  list-style-position: stack;
+ }
+}
 /*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
 ul {
   list-style-type: none;
@@ -37,7 +41,8 @@ aside {
 
 /*HEADER*/
 h1 {
-font-family: bio Sans;
+  font-family: bio Sans;
+  font-size: 50px/26px;
   color:#21BFA2;
   left: 113px;
   width: 320px;
@@ -125,3 +130,5 @@ footer{
   background: #181E26F2;
   margin-top: 20px;
 }
+
+
