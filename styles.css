@@ -7,7 +7,7 @@
 /*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-left:20px;
   padding: 20px;
   overflow: hidden;
   background-color: #181E26;
@@ -37,6 +37,10 @@ aside {
   font-style: italic;
   background-color: none;
 
+}
+
+label{
+  padding-bottom: 10px;
 }
 
 /*HEADER*/
