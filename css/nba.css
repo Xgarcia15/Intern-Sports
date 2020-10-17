@@ -1,6 +1,12 @@
 /*Media Query for max width of 480px devices*/
 @media screen and (max-width:480px) {
  nav {
+  list-style-position: vertical;
+ }
+ h1{
+  font-size: 25px/13px;
+ }
+ footer{
   list-style-position: stack;
  }
 }
@@ -38,40 +44,29 @@ li a:hover {
 }
 
 
+
 /*HEADER*/
 h1 {
   font-family: bio Sans;
   font-size: 50px/26px;
   color:#21BFA2;
-  left: 113px;
+  text-align: center;
   width: 320px;
-  padding-left: 90px; 
+  align-content: center; 
   padding-top: 50px;
 }
 
-h3{
-  font-family: bio Sans;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  padding: 50px;
-}
-
-td, th {
-  border: 1px solid #dddddd;
+h4{
+  width: 390px;
   text-align: left;
-  padding: 8px;
+  padding-left: 10px;
+  font: normal normal 600 21px/39px Bio Sans;
+  letter-spacing: 0px;
+  color: #7F7F7F;
+  opacity: 1;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
+
 
 img {
   align-content: center;
@@ -79,12 +74,65 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7F7F7F;
+  opacity: 2px;
+  padding: 15px;
+  padding-left: 20px;
+  grid-gap: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+aside{
+  margin-left: 20px;
+}
+
+
+
+
 
 }
-ul.li {
-
-
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin-left: : 50px;
+  padding-left: 10px;
+ 
 }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+td{
+  font-size: 16px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
 
 
 /*FOOTER*/
@@ -93,6 +141,7 @@ footer{
   text-align: left;
   background: #181E26F2;
   margin-top: 20px;
+  width: 100%;
 }
 
 label,p{
