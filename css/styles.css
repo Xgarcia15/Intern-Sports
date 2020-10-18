@@ -1,5 +1,5 @@
 /*Media Query for max width of 480px devices*/
-@media screen and (max-width:480px) {
+@media only screen and (max-width:480px) {
  nav {
   list-style-position: stack;
  }
