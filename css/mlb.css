@@ -4,7 +4,7 @@
   list-style-position: vertical;
  }
 
- 
+
 
  h1{
   font-size: 25px/13px;
@@ -27,7 +27,7 @@ ul {
   margin: 0;
   padding: 10px;
   overflow: hidden;
-  background-color: #181E26;
+  background-color: #21BFA2;
 }
 
 li {
@@ -111,7 +111,7 @@ iframe{
 footer{
   padding: 20px;
   text-align: left;
-  background: #181E26F2;
+  background: #21BFA2;
   margin-top: 20px;
   width: 100%;
 }
