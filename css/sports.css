@@ -6,9 +6,14 @@
  h1{
   font-size: 25px/13px;
  }
+  img {
+  width: 100%
+ }
+ 
  footer{
   list-style-position: stack;
  }
+
 }
 
 /*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/

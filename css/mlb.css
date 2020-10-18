@@ -3,6 +3,10 @@
  nav {
   list-style-position: vertical;
  }
+
+ img {
+  width: 100%
+ }
  h1{
   font-size: 25px/13px;
  }

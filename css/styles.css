@@ -3,6 +3,9 @@
  nav {
   list-style-position: stack;
  }
+  img {
+  width: 100%
+ }
 }
 
 /*Navigation list - HOME,SPORTS,CONTACT,ABOUT*/
