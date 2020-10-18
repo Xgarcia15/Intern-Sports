@@ -1,5 +1,5 @@
 /*Media Query for max width of 480px devices*/
-@media screen and (max-width:480px) {
+@media only screen and (max-width:480px) {
  nav {
   list-style-position: vertical;
  }
@@ -7,9 +7,9 @@
   font-size: 25px/13px;
  }
   img {
-  width: 100%
+  width: 100%;
  }
- 
+
  footer{
   list-style-position: stack;
  }
