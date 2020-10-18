@@ -1,7 +1,7 @@
 /*Media Query for max width of 480px devices*/
 @media only screen and (max-width:480px) {
  nav {
-  list-style-position: vertical;
+  list-style-position: horizontal;
  }
 
  h1{
