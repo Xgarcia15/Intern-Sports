@@ -40,6 +40,26 @@ li a:hover {
   background-color:#21BFA2;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  opacity: 2px;
+  padding: 15px;
+  padding-left: 20px;
+  grid-gap: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 1px;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 
 aside {
